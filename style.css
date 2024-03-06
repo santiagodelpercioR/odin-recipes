@@ -1,49 +1,37 @@
-*{
-    box-sizing: border-box;
+* {
 }
 
 body {
-    font-family: "Brush Script MT";
-    background-color: rgba(4, 27, 54, 0.959);
+    margin: 0 auto;
+    background-color: rgba(0, 75, 75, 0.918);
+    border: 1px solid white;
+    max-height: auto;
 }
 
 h1 {
-    font-size: 50px;
-    border-radius: 15px;
-    color: aliceblue;
+    border: 1px solid white;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    color: white;
 }
 
-.links {
+#selectRecipe {
     display: inline-block;
-    background-color: rgb(0, 145, 189);
-    border-radius: 10px;
-    padding: 10px;
-    height: auto;
-}
-h1,
-.links {
-    margin-left: 20px;
+    height: 100vh;
+    border: 1px solid white;
+    color: white;
+    width: 300px;
 }
 
-a {
+#selectRecipeh4 {
+    text-align: center;
+}
+
+
+.link {
     display: block;
+    color: white;
+    margin: 5px;
 }
-
-a,
-.content {
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 145, 189);
-    padding: 20px;
-    margin: 10px;
-    border-radius: 10px;
-}
-
-.recipeImg {
-    margin-left: 500px;
-    width: 700px;
-    height: auto;
-    border: 6px solid rgb(0, 145, 189);
-}
-
-
 
