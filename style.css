@@ -4,38 +4,45 @@
 
 body {
     font-family: "Brush Script MT";
-    background-color: aqua;
+    background-color: rgba(4, 27, 54, 0.959);
 }
 
 h1 {
     font-size: 50px;
     border-radius: 15px;
+    color: aliceblue;
+}
+
+.links {
+    display: inline-block;
+    background-color: rgb(0, 145, 189);
+    border-radius: 10px;
+    padding: 10px;
+    height: auto;
+}
+h1,
+.links {
+    margin-left: 20px;
+}
+
+a {
+    display: block;
 }
 
 a,
-.content,
-.links {
+.content {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 145, 189);
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
     border-radius: 10px;
 }
 
 .recipeImg {
+    margin-left: 500px;
     width: 700px;
     height: auto;
-    margin: 10px;
     border: 6px solid rgb(0, 145, 189);
-}
-
-h1,
-h2,
-h3,
-a,
-.links,
-.divImage {
-    text-align: center;
 }
 
 
