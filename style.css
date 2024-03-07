@@ -1,5 +1,4 @@
 * {
-    border: 1px solid white;
     color: white;
 }
 
@@ -8,30 +7,32 @@ body {
     background-color: rgba(0, 75, 75, 0.918);
     border: 1px solid white;
     max-height: auto;
+    border: 1px solid white;
 }
 
 h1 {
     border: 1px solid white;
     text-align: center;
-    padding: 0px;
-    margin: 0px;
+    padding: 5px;
+    margin: 5px;
 }
 #principal{
-    border: 3px solid rgb(255, 0, 255);
+    /*border: 3px solid rgb(255, 0, 255);*/
     text-align: center;
     max-height: fit-content;
 }
 
 #selectRecipe {
     display: inline-block;
-    border: 5px solid rgb(0, 255, 21);
+    border: 1px solid rgb(0, 255, 21);
     height: 100%;
     position: absolute;
     left: 1px;
 }
 #recipe {
     display: inline-block;
-    border: 5px solid rgb(255, 0, 0);
+    border-left: 1px solid white;
+    /*border: 5px solid rgb(255, 0, 0);*/
     width: 90.9%;
     position: absolute;
     left: 141px;
@@ -47,4 +48,9 @@ h4 {
     max-width: fit-content;
     display: block;
     margin: 5px;
+}
+
+.recipeImg{
+    height: 500px;
+    width: auto;
 }
