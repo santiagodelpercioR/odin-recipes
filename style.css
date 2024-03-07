@@ -1,4 +1,6 @@
 * {
+    border: 1px solid white;
+    color: white;
 }
 
 body {
@@ -13,25 +15,33 @@ h1 {
     text-align: center;
     padding: 0px;
     margin: 0px;
-    color: white;
+}
+#principal{
+    border: 10px solid rgb(255, 0, 255);
 }
 
 #selectRecipe {
     display: inline-block;
+    border: 10px solid rgb(0, 255, 21);
     height: 100vh;
-    border: 1px solid white;
-    color: white;
-    width: 300px;
 }
 
-#selectRecipeh4 {
+#recipe {
+    display: inline-block;
+    border: 6px solid rgb(255, 0, 0);
+    width: 1320px;
+    height: 100vh;
+}
+/*
+h4 {
     text-align: center;
+    font-size: 20px;
 }
 
 
 .link {
+    font-size: 16px;
+    max-width: fit-content;
     display: block;
-    color: white;
     margin: 5px;
-}
-
+}*/
